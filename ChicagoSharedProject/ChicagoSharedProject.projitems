@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e614e525-b973-4f70-ba05-0c883b2e53e3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TabsAdmin.Mobile.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppStart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GzipWebClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Hashing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\BlobStorageHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\InappropriatePostHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\MoreScreenHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\PasswordHash.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\PushNotificationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\SendDrinkHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\StateHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\TimeHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Businesses\IAddressFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Businesses\IBusinessFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Businesses\IBusinessPhotoFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Businesses\IBusinessTypesFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\CheckIns\ICheckInFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Individuals\IIndividualFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Individuals\ISMSMessageFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Individuals\IToasterPhotoFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Individuals\IToastersFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\INotificationRegisterFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IVerificationCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Reports\InappropriateReports\IInappropriateReportCheckInFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Reports\Spams\IReportedSpamCheckInFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Reports\Users\IReportedUserFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Users\IUserFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Businesses\AddressFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Businesses\BusinessFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Businesses\BusinessPhotoFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Businesses\BusinessTypesFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\CheckIns\CheckInFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Individuals\IndividualFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Individuals\SMSMessageFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Individuals\ToasterPhotoFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Individuals\ToastersFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\NotificationRegisterFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Reports\InappropriateReports\InappropriateReportCheckInFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Reports\Spams\ReportedSpamCheckInFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Reports\Users\ReportedUserFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\Users\UsersFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\VerificationCodeFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\AccountAuthToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\BaseModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Businesses\Address.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Businesses\BusinesPhoto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Businesses\Business.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Businesses\BusinessSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Businesses\BusinessTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\CheckIns\CheckIn.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\CheckIns\CheckInLikes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DeviceRegistration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ImageViewImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Individuals\Individual.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Reports\InappropriateReports\InappropriateReport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Reports\Users\ReportedUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SearchParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Individuals\ToasterPhoto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Individuals\Toasters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Individuals\ToastersSearchItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\NotificationQuery.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\PhoneContact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Reports\Spams\ReportedSpamCheckIn.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Users\Users.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\VerificationCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyEnvironment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\AppText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\Color.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\LocationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\NavigationDrawerMenuItems.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\NotificationTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\ToastMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\AddressService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\BaseService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\BusinessService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\BusinessTypesService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\CheckInService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\CustomerPaymentInfoService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\InappropriateReportCheckInService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\IndividualsService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\NotificationRegisterService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\ReportedSpamCheckInService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\ReportedUserService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\SMSMessageService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\ServiceClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\ToastersService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\UsersService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebServices\VerificationCodeService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Factories\" />
+  </ItemGroup>
+</Project>

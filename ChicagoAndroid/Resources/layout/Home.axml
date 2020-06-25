@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/loginLayout">
+	 <Button
+        android:text="@string/login_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/loginBtn"
+        android:gravity="center"
+        android:typeface="normal"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:layout_marginRight="48dp"
+        android:layout_marginLeft="48dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rbp_selector"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="96dp" />
+    <Button
+        android:text="Create Account"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/signupBtn"
+        android:gravity="center"
+        android:typeface="normal"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:layout_marginRight="48dp"
+        android:layout_marginLeft="48dp"
+        android:textColor="@color/rbs_font_color"
+            android:background="@drawable/rbs_selector"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="32dp" />
+</FrameLayout>
